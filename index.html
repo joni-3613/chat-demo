@@ -4,10 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Center Chat Demo</title>
+  <!-- Google Fonts for branding -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f2f4f8;
+      color: #1b263b;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #05668d;
+      color: #fff;
+      padding: 32px 0 16px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.2em;
+      margin-bottom: 0.5em;
+    }
+    .tagline {
+      font-size: 1.1em;
+      color: #e0e0e0;
+      margin-bottom: 12px;
+    }
+    main {
+      max-width: 600px;
+      margin: 36px auto 0;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 16px rgba(11, 61, 145, 0.09);
+      padding: 32px;
+    }
+    .chat-info {
+      font-size: 1.08em;
+      margin-bottom: 26px;
+    }
+    footer {
+      margin-top: 48px;
+      padding: 16px;
+      text-align: center;
+      background: #05668d;
+      color: #fff;
+      font-size: 0.95em;
+    }
+  </style>
 </head>
 <body>
-  <h1>Microsoft Contact Center Chat Demo</h1>
-  <p>This demo showcases the Microsoft Contact Center chat widget integration.</p>
-<script id="Microsoft_Omnichannel_LCWidget" src="https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js"" onerror="(function(el){el.parentNode.removeChild(el);var s=document.createElement('script');s.src='https://ocprodocprodnamgs.blob.core.windows.net/livechatwidget/scripts/LiveChatBootstrapper.js';s.setAttribute('id', 'Microsoft_Omnichannel_LCWidget');s.setAttribute('data-app-id', '25b9bf5b-3335-4454-b887-610618d4c382');s.setAttribute('data-lcw-version', 'prod');s.setAttribute('data-org-id', '5ef22ee3-a37e-f011-8589-000d3a357702');s.setAttribute('data-org-url', 'https://m-5ef22ee3-a37e-f011-8589-000d3a357702.us.omnichannelengagementhub.com');document.body.appendChild(s);})(this);" data-app-id="25b9bf5b-3335-4454-b887-610618d4c382" data-lcw-version="prod" data-org-id="5ef22ee3-a37e-f011-8589-000d3a357702" data-org-url="https://m-5ef22ee3-a37e-f011-8589-000d3a357702.us.omnichannelengagementhub.com" async></script>
-</body>
-</html>
+  <header>
+    <!-- If you have a logo, add here. Example: <img src="logo.png" alt="Logo" style="height:45px"> -->
+    <h1>Microsoft Contact Center Chat Demo</h1>
+    <div class="tagline">Next-generation customer engagement experience</div>
+  </header>
+  <main>
+    <div class="chat-info">
+      This demo showcases the Microsoft Contact Center chat widget integration. Try chatting with us below!
+    </div>
+    <!-- Chat widget script remains unchanged -->
+    <script id="Microsoft_Omnichannel_LCWidget"
+      src="https://oc-cdn-ocprod.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js"
+      onerror="(function(el){el.parentNode.removeChild(el);var s=document.createElement('script');s.src='https://ocprodocprodnamgs.blob.core.windows.net/livechatwidget/scripts/LiveChatBootstrapper.js';s.setAttribute('id', 'Microsoft_Omnichannel_LCWidget
